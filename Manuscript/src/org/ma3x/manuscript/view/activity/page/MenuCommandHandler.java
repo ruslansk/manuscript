@@ -21,6 +21,8 @@ import org.ma3x.manuscript.view.util.DataPipe;
 
 import org.ma3x.manuscript.activity.R;
 import net.bible.service.common.CommonUtils;
+import android.app.Activity;
+import android.app.ActivityManager;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -117,6 +119,10 @@ public class MenuCommandHandler {
 	        		handlerIntent = new Intent(callingActivity, Download.class);
 	        		requestCode = UPDATE_SUGGESTED_DOCUMENTS_ON_FINISH;
 	        	}
+	        	break;
+	        case R.id.exitButton:
+	        	//callingActivity.moveTaskToBack(true);
+	        	callingActivity.finish();
 	        	break;
 	        case R.id.helpButton:
 	        	handlerIntent = new Intent(callingActivity, Help.class);

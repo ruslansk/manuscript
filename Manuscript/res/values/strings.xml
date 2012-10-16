@@ -26,7 +26,6 @@
     </string>
     <string name="version_text">Version %s</string>
     <string name="no_sdcard_error">Please insert an SD card and start And Bible again.</string>
-
     <!-- main menu -->
     <string name="chooseBook">Document</string>
     <string name="selectPassage">Passage</string>
@@ -35,12 +34,10 @@
     <string name="history">History</string>
     <string name="speak">Speak</string>
     <string name="help">Help</string>
-
     <!-- Passage navigation -->
     <string name="choosePassageBookName">Choose Book</string>
     <string name="choosePassageChapterName">Choose Chapter</string>
     <string name="choosePassageVerseName">Choose Verse</string>
-
     <!--  Search -->
     <string name="search_index">Search Index</string>
     <string name="index_creation_required">An index is required to search.\n\nIndexes may be downloaded from the internet or created locally.\n\nDownloading is much quicker and downloaded indexes have more search features.\n\nAn internet connection is required to download indexes.\n</string>
@@ -49,12 +46,10 @@
     <string name="index_download">Download</string>
     <string name="index_not_available_for_download">This index is not available for download</string>
     <string name="index_create">Create</string>
-
     <!-- Tasks -->
     <string name="progress_status">Progress</string>
     <string name="task_kill_warning">These long running tasks may terminate if you switch to another application before they finish.</string>
     <string name="no_tasks_running">There are no tasks currently being executed.</string>
-
     <!-- Search -->
     <string name="search_results">Find Results</string>
     <string name="search_words_group_prompt">Find verses</string>
@@ -69,7 +64,6 @@
     <string name="search_old_testament">Old Testament</string>
     <string name="search_current_book">Current book</string>
     <string name="error_executing_search">Invalid search query</string>
-
     <!-- Preferences -->
     <string name="prefs_show_verseno_title">Verse numbers</string>
     <string name="prefs_show_verseno_summary">Show verse numbers</string>
@@ -99,16 +93,14 @@
     <string name="prefs_text_size_title">Text size</string>
     <string name="prefs_text_size_summary">See more or see more clearly</string>
     <string name="prefs_text_size_sample_text">Sample text</string>
-	<string name="prefs_interface_locale_title">Application language</string>
+    <string name="prefs_interface_locale_title">Application language</string>
     <string name="prefs_interface_locale_summary">Select custom user interface language</string>
     <string name="locale_change_warning">Application will be restarted to switch to the new interface language</string>
-
     <!-- Notes screen -->
     <string name="no_chapter_notes">No notes exist in this chapter</string>
     <string name="no_verse_notes">No notes exist in this verse</string>
     <string name="previous">Previous</string>
     <string name="next">Next</string>
-
     <!--  Strongs -->
     <string name="strongs">Strong\'s Dictionary</string>
     <string name="strongs_not_installed">Please download Strong\'s Hebrew and Greek dictionaries</string>
@@ -118,7 +110,6 @@
     <string name="morph_robinson_not_installed">Please download \'Robinson\'s Morphological Analysis Codes\' dictionary</string>
     <string name="strongs_toggle_button_on">nnnn</string>
     <string name="strongs_toggle_button_off">nnnn</string>
-
     <!-- Module download -->
     <string name="download">Download Documents</string>
     <string name="download_confirmation">Download a bible from the internet?</string>
@@ -134,7 +125,6 @@
     <string name="download_complete_no_bibles">No bible was installed.  Please press Back and try again.</string>
     <string name="too_many_jobs">Too many tasks executing.  Please wait for some to finish and try again.</string>
     <string name="document_not_installed">Please download \'%s\'</string>
-    
     <!-- Daily Reading Plan -->
     <string name="rdg_plan_title">Reading Plan</string>
     <string name="rdg_plan_selector_title">Choose a Reading Plan</string>
@@ -148,14 +138,12 @@
     <string name="rdg_plan_y1ot1nt1_OTthenNT">Through the bible in a year - OT then NT</string>
     <string name="rdg_plan_y1ot1nt2_mcheyne">Through the bible in a year (M\'Cheyne)</string>
     <!-- string name="rdg_plan_m1gospels">Through the Gospels in a month</string -->
-    
     <!-- Document context menu -->
     <string name="delete">Delete</string>
     <string name="delete_index">Delete search index</string>
     <string name="about">About</string>
     <string name="delete_doc">Delete %s?</string>
     <string name="delete_search_index_doc">Delete index of %s?</string>
-
     <!-- Verse context menu -->
     <string name="select_text">Select text</string>
     <string name="select_text_help">Drag slowly to select.\nThen touch selection to copy.</string>
@@ -164,7 +152,6 @@
     <string name="share_verse">Share current verse ...</string>
     <string name="share_verse_subject">A Bible verse has been shared with you using And Bible</string>
     <string name="compare_translations">Compare translations</string>
-    
     <!-- Bookmarks -->
     <string name="bookmarks">Bookmarks</string>
     <string name="add_bookmark">Add bookmark</string>
@@ -175,16 +162,13 @@
     <string name="new_label">New Label</string>
     <string name="new_label_prompt">Name</string>
     <string name="label_unlabelled">Unlabelled</string>
-    
     <!-- Dictionary -->
     <string name="dictionary">Dictionary</string>
     <string name="search_dictionary_hint">Search dictionary</string>
     <string name="dictionary_contents">Contents</string>
-
     <!-- General Book -->
     <string name="general_book">Book</string>
     <string name="general_book_contents">Contents</string>
-
     <!-- Speak -->
     <!-- plurals tags referencing the below have been moved to untranslated_strings.xml -->
     <!-- Speak - Bible -->
@@ -203,31 +187,26 @@
     <string name="tts_lang_not_available">Language is not available.</string>
     <string name="speak_queue">Queue</string>
     <string name="speak_repeat">Repeat</string>
-
     <!-- User Notes -->
     <string name="mynotes">My Notes</string>
     <string name="mynote">My Note</string>
     <string name="mynote_add">Add My Note</string>
     <string name="mynote_view_edit">My Note</string>
     <string name="mynote_saved">My Note saved</string>
-    
     <!-- Backup and restore -->
     <string name="backup">Backup</string>
-    <string name="backup_success">My Notes and Bookmarks saved in %s on the SD card</string>    
+    <string name="backup_success">My Notes and Bookmarks saved in %s on the SD card</string>
     <string name="restore">Restore</string>
-    <string name="restore_confirmation">Overwrite My Notes and Bookmarks?</string>    
-    <string name="restore_success">My Notes and Bookmarks restored from %s on the SD card</string>    
-    
+    <string name="restore_confirmation">Overwrite My Notes and Bookmarks?</string>
+    <string name="restore_success">My Notes and Bookmarks restored from %s on the SD card</string>
     <!-- Document types -->
     <string name="doc_type_bible">Bible</string>
     <string name="doc_type_commentary">Commentary</string>
     <string name="doc_type_dictionary">Dictionary</string>
     <string name="doc_type_book">Book</string>
     <string name="doc_type_map">Map</string>
-    
     <!-- Languages -->
     <string name="lang_default">Default</string>
-
     <!-- General -->
     <string name="okay">OK</string>
     <string name="cancel">Cancel</string>
@@ -239,11 +218,11 @@
     <string name="retry">Try Again</string>
     <string name="please_wait">Please wait...</string>
     <string name="all">All</string>
-    
     <!-- Errors -->
     <string name="error_occurred">An error has occurred</string>
     <string name="error_no_content">No content for selected verse</string>
     <string name="error_page_too_large">Page is too large to be loaded</string>
     <string name="error_key_not_in_document">Not found in document</string>
     <string name="empty_list">No items to display</string>
+    <string name="exit">Exit</string>
 </resources>

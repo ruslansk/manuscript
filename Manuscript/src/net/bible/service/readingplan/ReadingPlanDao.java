@@ -102,7 +102,7 @@ public class ReadingPlanDao {
 	private ReadingPlanInfoDto getReadingPlanInfoDto(String planCode) {
 		Log.d(TAG, "Get reading plan info:"+planCode);
 		ReadingPlanInfoDto info = new ReadingPlanInfoDto(planCode);
-		int id = BibleApplication.getApplication().getResources().getIdentifier("rdg_plan_"+planCode, "string", "net.bible.android.activity");
+		int id = BibleApplication.getApplication().getResources().getIdentifier("rdg_plan_"+planCode, "string", "org.ma3x.manuscript.activity");
 		String desc = "";
 		if (id != 0) {
 			desc = BibleApplication.getApplication().getResources().getString(id);

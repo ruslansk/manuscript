@@ -40,7 +40,7 @@ public class CompareTranslations extends ListActivityBase implements SwipeGestur
 
 	private CompareTranslationsControl compareTranslationsControl = ControlFactory.getInstance().getCompareTranslationsControl();
 
-    public static final String VERSE = "net.bible.android.view.activity.comparetranslations.Verse";
+    public static final String VERSE = "org.ma3x.manuscript.view.activity.comparetranslations.Verse";
 	private static final int LIST_ITEM_TYPE = android.R.layout.simple_list_item_2;
 
     /** Called when the activity is first created. */

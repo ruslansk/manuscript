@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!-- Application text
  
  @author Martin Denham [mjdenham at gmail dot com]
@@ -13,7 +13,6 @@
     <string name="help_text_long">"<b>Navigazione</b>\nUsa la \'track-ball\', \'D-pad\' o muovi il dito sullo schermo per procedere al capitolo successivo o tornare a quello precedente\nClicca due volte per azionare o spegnere lo schermo intero. \n\n<b>Menu</b> \nClicca il tasto \'MENU\' per continuare \n\nPer scaricare altri documenti clicca il tasto MENU/ALTRO/SCARICA DOCUMENTI \n\n<b>Audio</b>\nClicca \'AUDIO\' per ascoltare un dialogo o iniziare/completare la lettura \n\n<b>I Miei Appunti</b>\nUsa il Menu \'I Miei Appunti\' per aggiungere appunti sui singoli versi. Puoi accedere alla lista degli appunti attraverso il menu principale. \n\n<b>Segnalibri</b>\nPuoi aggiungere dei segnalibri attraverso il menu dei versi. Puoi accedere al \'Manager dei Segnalibri\' attraverso il menu principale. Il menu del \'Manager dei Segnalibri\' permette di raggruppare i segnalibri con l\'uso di etichette. \n\n<b>Ricerca</b>\nIl testo della Ricerca include caratteri come *, ?, E, O, NON (vedi \"Apache Lucene - Query Parser Syntax\" per ulteriori dettagli) \n\n<b>I Menu del Contenuto</b> \nPremi a lungo sullo schermo della Bibbia per aprire il menu del contesto per azioni che si riferiscono al verso in questione. \nPremi a lungo su un documento nella selezione dei documenti per cancellare o vedere informazioni. \nLong press the Back button to access the History list "</string>
     <string name="version_text">Versione %s</string>
     <string name="no_sdcard_error">Inserisci una carta \'SD\' e inizia nuovamente E Bibbia.</string>
-
     <!-- main menu -->
     <string name="chooseBook">Documento</string>
     <string name="selectPassage">Passaggio</string>
@@ -22,12 +21,10 @@
     <string name="history">Storia</string>
     <string name="speak">Parla/Audio</string>
     <string name="help">Supporto</string>
-
     <!-- Passage navigation -->
     <string name="choosePassageBookName">Scegli un Libro</string>
     <string name="choosePassageChapterName">Scegli un Capitolo</string>
     <string name="choosePassageVerseName">Scegli un Verso</string>
-
     <!--  Search -->
     <string name="search_index">Indice di Ricerca</string>
     <string name="index_creation_required">"Usa l\'indice per completare una ricerca.\n\nGli indici possono essere scaricati da Internet o creati localmente.\n\nLo scaricamento e\' piu\' veloce e gli indici scaricati hanno piu\' elementi.\n\nE\' necessaria la connessione ad Internet per scaricare gli indici."</string>
@@ -36,12 +33,10 @@
     <string name="index_download">Scarica</string>
     <string name="index_not_available_for_download">Questo indice e\' disponibile da scaricare</string>
     <string name="index_create">Crea</string>
-
     <!-- Tasks -->
     <string name="progress_status">Progresso</string>
     <string name="task_kill_warning">Queste operazioni lunghe potrebbero terminare se passi ad un\'altra applicazione prima della fine.</string>
     <string name="no_tasks_running">Non ci sono operazioni in corso al momento.</string>
-
     <!-- Search -->
     <string name="search_results">Trova i Risultati</string>
     <string name="search_words_group_prompt">"Trova i Versi\n\n\n"</string>
@@ -56,7 +51,6 @@
     <string name="search_old_testament">Antico Testamento</string>
     <string name="search_current_book">Libro attuale</string>
     <string name="error_executing_search">Ricerca invalida</string>
-
     <!-- Preferences -->
     <string name="prefs_show_verseno_title">Numeri dei versi</string>
     <string name="prefs_show_verseno_summary">Mostra i numeri dei versi</string>
@@ -86,16 +80,14 @@
     <string name="prefs_text_size_title">Grandezza del testo</string>
     <string name="prefs_text_size_summary">Vedi altro o vedi piu\' chiaramente</string>
     <string name="prefs_text_size_sample_text">Testo campione</string>
-	<string name="prefs_interface_locale_title">Applicazione della lingua</string>
+    <string name="prefs_interface_locale_title">Applicazione della lingua</string>
     <string name="prefs_interface_locale_summary">Seleziona la lingua dell\'utente personalizzato</string>
     <string name="locale_change_warning">L\'applicazione viene riniziata per passare alla nuova lingua</string>
-
     <!-- Notes screen -->
     <string name="no_chapter_notes">Non esistono appunti su questo capitolo</string>
     <string name="no_verse_notes">Non esistono appunti su questo verso</string>
     <string name="previous">Precedente</string>
     <string name="next">Successivo</string>
-
     <!--  Strongs -->
     <string name="strongs">Il dizionario di Strong</string>
     <string name="strongs_not_installed">"Scarica il dizionario ebraico e greco di Strong "</string>
@@ -105,7 +97,6 @@
     <string name="morph_robinson_not_installed">scarica il dizionario dei codici di analisi morfologica di Robinson</string>
     <string name="strongs_toggle_button_on">nnnn</string>
     <string name="strongs_toggle_button_off">nnnn</string>
-
     <!-- Module download -->
     <string name="download">Scarica i documenti</string>
     <string name="download_confirmation">Scarica una Bibbia da Internet?</string>
@@ -121,7 +112,6 @@
     <string name="download_complete_no_bibles">Non e\' stata installata nessuna Bibbia. Clicca \'Indietro\' e prova di nuovo.</string>
     <string name="too_many_jobs">Troppe operazioni in corso. Aspetta e prova di nuovo.</string>
     <string name="document_not_installed">Scarica \'%s\'</string>
-    
     <!-- Daily Reading Plan -->
     <string name="rdg_plan_title">Piano di lettura</string>
     <string name="rdg_plan_selector_title">Scegli un piano di lettura</string>
@@ -135,14 +125,12 @@
     <string name="rdg_plan_y1ot1nt1_OTthenNT">Leggi la Bibbia in un anno - Antico Testamento e Nuovo Testamento</string>
     <string name="rdg_plan_y1ot1nt2_mcheyne">Leggi la Bibbia in un anno (M\'Cheyne)</string>
     <!-- string name="rdg_plan_m1gospels">Through the Gospels in a month</string -->
-    
     <!-- Document context menu -->
     <string name="delete">Cancella</string>
     <string name="delete_index">Cancella l\'indice di ricerca</string>
     <string name="about">Riguardo</string>
     <string name="delete_doc">Cancella %s?</string>
     <string name="delete_search_index_doc">Cancella l\'indice di %s?</string>
-
     <!-- Verse context menu -->
     <string name="select_text">Seleziona un testo</string>
     <string name="select_text_help">Trascina lenatamente per selzionare. \nTocca la tua selezione per copiare.</string>
@@ -151,7 +139,6 @@
     <string name="share_verse">Condividi il verso attuale...</string>
     <string name="share_verse_subject">Un verso della Bibbia e\' condiviso con te usando E Bibbia</string>
     <string name="compare_translations">Confronta le traduzioni</string>
-    
     <!-- Bookmarks -->
     <string name="bookmarks">Segnalibri</string>
     <string name="add_bookmark">Aggiungi segnalibri</string>
@@ -162,16 +149,13 @@
     <string name="new_label">Etichetta nuova</string>
     <string name="new_label_prompt">Nome</string>
     <string name="label_unlabelled">Senza etichetta</string>
-    
     <!-- Dictionary -->
     <string name="dictionary">Dizionario</string>
     <string name="search_dictionary_hint">Cerca nel dizionario</string>
     <string name="dictionary_contents">Argomenti</string>
-
     <!-- General Book -->
     <string name="general_book">Libro</string>
     <string name="general_book_contents">Argomenti</string>
-
     <!-- Speak -->
     <!-- plurals tags referencing the below have been moved to untranslated_strings.xml -->
     <!-- Speak - Bible -->
@@ -190,31 +174,26 @@
     <string name="tts_lang_not_available">La lingua non e\' disponibile</string>
     <string name="speak_queue">Fila</string>
     <string name="speak_repeat">Ripeti</string>
-
     <!-- User Notes -->
     <string name="mynotes">I miei appunti</string>
     <string name="mynote">Il mio appunto</string>
     <string name="mynote_add">Aggiungi il mio appunto</string>
     <string name="mynote_view_edit">Il mio appunto</string>
     <string name="mynote_saved">Il mio appunto salvato</string>
-    
     <!-- Backup and restore -->
     <string name="backup">ll backup</string>
-    <string name="backup_success">i miei appunti e i miei segnalibri salvati sulla carta \'SD\'</string>    
+    <string name="backup_success">i miei appunti e i miei segnalibri salvati sulla carta \'SD\'</string>
     <string name="restore">Ripristina</string>
-    <string name="restore_confirmation">Modifica i miei appunti e i miei segnalibri?</string>    
-    <string name="restore_success">I miei appunti e i miei segnalirbi ripristinati da %s sulla carta \'SD\'</string>    
-    
+    <string name="restore_confirmation">Modifica i miei appunti e i miei segnalibri?</string>
+    <string name="restore_success">I miei appunti e i miei segnalirbi ripristinati da %s sulla carta \'SD\'</string>
     <!-- Document types -->
     <string name="doc_type_bible">La Bibbia</string>
     <string name="doc_type_commentary">Commento</string>
     <string name="doc_type_dictionary">Dizionario</string>
     <string name="doc_type_book">Libro</string>
     <string name="doc_type_map">Mappa</string>
-    
     <!-- Languages -->
     <string name="lang_default">Il \'Default\'</string>
-
     <!-- General -->
     <string name="okay">OK</string>
     <string name="cancel">Cancella</string>
@@ -226,11 +205,11 @@
     <string name="retry">Prova di nuovo</string>
     <string name="please_wait">Aspetta...</string>
     <string name="all">Tutto</string>
-    
     <!-- Errors -->
     <string name="error_occurred">Si e\' verificato un errore</string>
     <string name="error_no_content">Non c\'e un contenuto per il verso selezionato</string>
     <string name="error_page_too_large">La pagina e\' troppo grande per essere caricata</string>
     <string name="error_key_not_in_document">Non si trova nel documento</string>
     <string name="empty_list">Niente da mostrare</string>
+    <string name="exit">Exit</string>
 </resources>

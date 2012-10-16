@@ -12,7 +12,7 @@ import android.os.Environment;
  */
 public class SharedConstants {
 
-	public static final String PACKAGE_NAME = "net.bible.android.activity";
+	public static final String PACKAGE_NAME = "org.ma3x.manuscript.activity";
     /**
      * Forms storage path
      */

@@ -30,7 +30,7 @@
 		  android:title="@string/help"
 		  android:icon="@android:drawable/ic_menu_help"/>
 
-	<item android:id="@+id/backupMainMenu"
+		<item android:id="@+id/backupMainMenu"
 		  android:title="@string/backup"
 		  android:icon="@android:drawable/ic_menu_save">
 		<menu>
@@ -61,5 +61,9 @@
 	<item android:id="@+id/speakButton"
 		  android:title="@string/speak"
 		  android:icon="@drawable/ic_menu_happy"/>
+
+	<item android:id="@+id/exitButton"
+		  android:title="@string/exit"
+		  android:icon="@android:drawable/ic_menu_help"/>
 
 </menu>

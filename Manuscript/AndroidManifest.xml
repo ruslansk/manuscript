@@ -3,7 +3,7 @@
       package="org.ma3x.manuscript.activity"
       android:installLocation="auto"
       android:versionName="1.6.0" android:versionCode="83">
-    <application android:icon="@drawable/bible" android:label="@string/app_name" android:name="org.ma3x.manuscript.BibleApplicationon" android:theme="@style/AndBibleTheme">
+    <application android:icon="@drawable/bible" android:label="@string/app_name" android:name="org.ma3x.manuscript.BibleApplication" android:theme="@style/AndBibleTheme">
         <!-- deprecated but necessary to prevent old shortcut breaking -->
         <activity android:name=".StartupActivity"
                   android:label="@string/app_name"

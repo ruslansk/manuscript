@@ -50,8 +50,8 @@ public class DailyReading extends CustomTitlebarActivityBase {
 	
 	private int mDay;
 	
-	public static final String PLAN = "net.bible.android.view.activity.readingplan.Plan";
-	public static final String DAY = "net.bible.android.view.activity.readingplan.Day";
+	public static final String PLAN = "org.ma3x.manuscript.view.activity.readingplan.Plan";
+	public static final String DAY = "org.ma3x.manuscript.view.activity.readingplan.Day";
 	
 	private OneDaysReadingsDto mReadings;
 
