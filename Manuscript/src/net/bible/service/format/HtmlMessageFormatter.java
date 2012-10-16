@@ -1,7 +1,8 @@
 package net.bible.service.format;
 
-import net.bible.android.BibleApplication;
-import net.bible.android.SharedConstants;
+import org.ma3x.manuscript.BibleApplication;
+import org.ma3x.manuscript.SharedConstants;
+
 import net.bible.service.device.ScreenSettings;
 
 /** prepare an error message for display in a WebView

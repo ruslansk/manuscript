@@ -1,9 +1,9 @@
 package net.bible.service.history;
 
-import net.bible.android.control.page.CurrentPageManager;
 
 import org.crosswire.jsword.book.Book;
 import org.crosswire.jsword.passage.Key;
+import org.ma3x.manuscript.control.page.CurrentPageManager;
 
 import android.util.Log;
 

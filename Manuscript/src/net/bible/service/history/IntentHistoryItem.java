@@ -1,7 +1,8 @@
 package net.bible.service.history;
 
-import net.bible.android.view.activity.base.CurrentActivityHolder;
-import net.bible.android.view.activity.page.MainBibleActivity;
+import org.ma3x.manuscript.view.activity.base.CurrentActivityHolder;
+import org.ma3x.manuscript.view.activity.page.MainBibleActivity;
+
 import net.bible.service.common.CommonUtils;
 import android.app.Activity;
 import android.content.Intent;

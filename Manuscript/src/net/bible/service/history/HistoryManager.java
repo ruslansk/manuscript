@@ -5,14 +5,14 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Stack;
 
-import net.bible.android.control.page.CurrentPage;
-import net.bible.android.control.page.CurrentPageManager;
-import net.bible.android.view.activity.base.AndBibleActivity;
-import net.bible.android.view.activity.base.CurrentActivityHolder;
-import net.bible.android.view.activity.page.MainBibleActivity;
 
 import org.crosswire.jsword.book.Book;
 import org.crosswire.jsword.passage.Key;
+import org.ma3x.manuscript.control.page.CurrentPage;
+import org.ma3x.manuscript.control.page.CurrentPageManager;
+import org.ma3x.manuscript.view.activity.base.AndBibleActivity;
+import org.ma3x.manuscript.view.activity.base.CurrentActivityHolder;
+import org.ma3x.manuscript.view.activity.page.MainBibleActivity;
 
 import android.app.Activity;
 import android.util.Log;

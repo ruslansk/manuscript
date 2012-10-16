@@ -1,6 +1,7 @@
 package net.bible.service.device;
 
-import net.bible.android.BibleApplication;
+import org.ma3x.manuscript.BibleApplication;
+
 import net.bible.service.common.CommonUtils;
 import android.content.SharedPreferences;
 import android.util.Log;

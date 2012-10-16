@@ -2,7 +2,7 @@ package net.bible.service.format.osistohtml;
 
 import java.util.Stack;
 
-import net.bible.android.activity.R;
+import org.ma3x.manuscript.activity.R;
 import net.bible.service.common.CommonUtils;
 import net.bible.service.common.Constants.HTML;
 import net.bible.service.common.Logger;

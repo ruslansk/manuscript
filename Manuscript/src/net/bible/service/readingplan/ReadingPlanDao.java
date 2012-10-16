@@ -10,12 +10,12 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.Properties;
 
-import net.bible.android.BibleApplication;
-import net.bible.android.SharedConstants;
 import net.bible.service.common.AndRuntimeException;
 
 import org.apache.commons.lang.StringUtils;
 import org.crosswire.common.util.IOUtil;
+import org.ma3x.manuscript.BibleApplication;
+import org.ma3x.manuscript.SharedConstants;
 
 import android.content.res.AssetManager;
 import android.content.res.Resources;

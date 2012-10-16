@@ -9,10 +9,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import net.bible.android.BibleApplication;
-import net.bible.android.SharedConstants;
-import net.bible.android.activity.R;
-import net.bible.android.control.ControlFactory;
+import org.ma3x.manuscript.activity.R;
 import net.bible.service.common.CommonUtils;
 import net.bible.service.common.Constants;
 import net.bible.service.common.Logger;
@@ -39,6 +36,9 @@ import org.crosswire.jsword.book.OSISUtil;
 import org.crosswire.jsword.passage.Key;
 import org.crosswire.jsword.passage.NoSuchKeyException;
 import org.crosswire.jsword.passage.Passage;
+import org.ma3x.manuscript.BibleApplication;
+import org.ma3x.manuscript.SharedConstants;
+import org.ma3x.manuscript.control.ControlFactory;
 import org.xml.sax.ContentHandler;
 
 import android.content.SharedPreferences;

@@ -7,7 +7,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import net.bible.android.SharedConstants;
 import net.bible.service.common.CommonUtils;
 import net.bible.service.common.Logger;
 import net.bible.service.download.DownloadManager;
@@ -32,6 +31,7 @@ import org.crosswire.jsword.index.IndexManager;
 import org.crosswire.jsword.index.IndexManagerFactory;
 import org.crosswire.jsword.index.IndexStatus;
 import org.crosswire.jsword.index.lucene.PdaLuceneIndexManager;
+import org.ma3x.manuscript.SharedConstants;
 
 /** JSword facade
  * 

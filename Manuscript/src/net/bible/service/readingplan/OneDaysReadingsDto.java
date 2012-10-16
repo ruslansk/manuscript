@@ -6,13 +6,13 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-import net.bible.android.BibleApplication;
-import net.bible.android.activity.R;
+import org.ma3x.manuscript.activity.R;
 
 import org.apache.commons.lang.StringUtils;
 import org.crosswire.jsword.passage.Key;
 import org.crosswire.jsword.passage.NoSuchKeyException;
 import org.crosswire.jsword.passage.PassageKeyFactory;
+import org.ma3x.manuscript.BibleApplication;
 
 import android.util.Log;
 

@@ -5,7 +5,6 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Properties;
 
-import net.bible.android.SharedConstants;
 import net.bible.service.common.CommonUtils;
 import net.bible.service.common.Logger;
 import net.bible.service.download.GenericFileDownloader;
@@ -13,6 +12,7 @@ import net.bible.service.download.GenericFileDownloader;
 import org.apache.commons.lang.StringUtils;
 import org.crosswire.jsword.book.Book;
 import org.crosswire.jsword.book.install.InstallException;
+import org.ma3x.manuscript.SharedConstants;
 
 public class FontControl {
 

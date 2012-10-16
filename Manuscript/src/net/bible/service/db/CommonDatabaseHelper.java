@@ -1,6 +1,7 @@
 package net.bible.service.db;
 
-import net.bible.android.BibleApplication;
+import org.ma3x.manuscript.BibleApplication;
+
 import net.bible.service.db.bookmark.BookmarkDatabaseDefinition;
 import net.bible.service.db.mynote.MyNoteDatabaseDefinition;
 import android.content.Context;

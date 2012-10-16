@@ -1,10 +1,10 @@
 package net.bible.service.format;
 
-import net.bible.android.control.page.CurrentPageManager;
 import net.bible.service.common.CommonUtils;
 import net.bible.service.sword.SwordContentFacade;
 
 import org.apache.commons.lang.StringUtils;
+import org.ma3x.manuscript.control.page.CurrentPageManager;
 
 import android.util.Log;
 

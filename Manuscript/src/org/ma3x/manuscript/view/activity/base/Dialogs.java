@@ -1,0 +1,106 @@
+package org.ma3x.manuscript.view.activity.base;
+
+import org.ma3x.manuscript.BibleApplication;
+import org.ma3x.manuscript.view.util.Hourglass;
+
+import org.ma3x.manuscript.activity.R;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.util.Log;
+import android.widget.Toast;
+
+public class Dialogs {
+
+	public static final int TOO_MANY_JOBS = 121;
+
+	private Hourglass hourglass = new Hourglass();
+	
+	private static final String TAG = "Dialogs";
+
+	private static final Dialogs singleton = new Dialogs();
+	
+	public static Dialogs getInstance() {
+		return singleton;
+	}
+	
+	private Dialogs() {
+		super();
+	}
+
+    public void showMsg(int msgId, String param) {
+    	showErrorMsg(BibleApplication.getApplication().getString(msgId, param));
+    }
+    public void showMsg(int msgId, boolean isCancelable, final Callback okayCallback) {
+    	showMsg(BibleApplication.getApplication().getString(msgId), isCancelable, okayCallback);
+    }
+    public void showErrorMsg(int msgId) {
+    	showErrorMsg(BibleApplication.getApplication().getString(msgId));
+    }
+    public void showErrorMsg(int msgId, String param) {
+    	showErrorMsg(BibleApplication.getApplication().getString(msgId, param));
+    }
+    public void showErrorMsg(String msg) {
+    	showErrorMsg(msg, new Callback() {
+			@Override
+			public void okay() {
+				// by default do nothing when user clicks okay
+			}
+		});
+    }
+
+    public void showErrorMsg(int msgId, final Callback okayCallback) {
+    	showErrorMsg(BibleApplication.getApplication().getString(msgId), okayCallback);
+    }
+
+    public void showErrorMsg(final String msg, final Callback okayCallback) {
+    	showMsg(msg, false, okayCallback);
+    }
+    
+    public void showMsg(final String msg, final boolean isCancelable, final Callback okayCallback) {
+    	Log.d(TAG, "showErrorMesage message:"+msg);
+    	try {
+			final Activity activity = CurrentActivityHolder.getInstance().getCurrentActivity();
+			if (activity!=null) {
+				activity.runOnUiThread(new Runnable() {
+	
+					@Override
+					public void run() {
+				    	AlertDialog.Builder dlgBuilder = new AlertDialog.Builder(activity)
+						   .setMessage(msg)
+					       .setCancelable(isCancelable)
+					       .setPositiveButton(R.string.okay, new DialogInterface.OnClickListener() {
+					           public void onClick(DialogInterface dialog, int buttonId) {
+					        	   okayCallback.okay();
+					           }
+					       });
+				    	
+				    	// if cancelable then show a Cancel button
+				    	if (isCancelable) {
+					    	dlgBuilder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+						           public void onClick(DialogInterface dialog, int buttonId) {
+						        	   // do nothing
+						           }
+						       });
+				    	}
+				    	
+				    	dlgBuilder.show();
+					}
+				});
+			} else {
+				Toast.makeText(BibleApplication.getApplication().getApplicationContext(), msg, Toast.LENGTH_LONG).show();
+			}
+    	} catch (Exception e) {
+    		Log.e(TAG, "Error showing error message.  Original error msg:"+msg, e);
+    	}
+    }
+
+    public void showHourglass() {
+        hourglass.show();
+    }
+
+    public void dismissHourglass() {
+    	hourglass.dismiss();
+    }
+
+}

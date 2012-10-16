@@ -2,7 +2,8 @@ package net.bible.service.device;
 
 import java.util.List;
 
-import net.bible.android.BibleApplication;
+import org.ma3x.manuscript.BibleApplication;
+
 import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;

@@ -9,11 +9,11 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Properties;
 
-import net.bible.android.BibleApplication;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.time.DateUtils;
 import org.crosswire.common.util.IOUtil;
+import org.ma3x.manuscript.BibleApplication;
 
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
